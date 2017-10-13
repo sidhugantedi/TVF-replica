@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro|Josefin+Sans');
+
+body {
+	background-color: #151518;
+}
+.banner-container {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 15px;
+	position: relative;
+}
+.banner-image {
+	height: auto;
+	width: 100%;
+	z-index: -20;
+}
+.banner-col {
+	background: #000;
+}
+#fade {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	top: 0;
+	z-index: 20;
+	background: linear-gradient(to bottom, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0.8) 60%, rgba(0,0,0,1) 100%, #000);
+	height: auto;
+	width: 100%;
+}
+.images #brand-name {
+	position: absolute;
+	top: 10%;
+	left: 43%;
+	z-index: 25;
+	color: #fff;
+	font-size: 3.5em;
+	text-transform: uppercase;
+}
+
+#brand-name span {
+	color: #edb100;
+}
+
+.content {
+	position: absolute;
+	top: 41%;
+	left: 24%;
+	z-index: 40;
+	color: #fff;
+	text-align: center;
+}
+/*.inner-content h2, .inner-content h4 {
+	text-align: center;
+}*/
+
+.inner-content h2 {
+	font-size: 3.25em;
+	text-transform: capitalize;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+	display: block;
+	width: 100%;
+}
+.inner-content h4 {
+	font-weight: 400;
+	margin: 10px;
+	font-size: 1.25em;
+	letter-spacing: 1px;
+}
+.free-button {
+	width: 38%;
+	margin: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 15px;
+	background-color: #ffc107!important;
+	border-color: #ebd100 !important;
+	cursor: pointer;
+}
+.free-button:hover {
+	background-color: #ffc107;
+	border-color: #ebd100;
+
+}
+.inner-content h5 {
+	margin: 10px;
+	font-size: 1.25em;
+	font-family: font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+.badges {
+	position: absolute;
+	cursor: pointer;
+	opacity: .5;
+	font-size: 1.25em;
+
+}
+
+.badges:hover {
+	opacity: 1.2;
+	max-width: 200px;
+}
+
+.playstore {
+	height: 4em;
+	left: 8%;
+	margin: 10px;
+}
+.appstore {
+	height: 2.70em;
+	left: 36%;
+	margin-top: 20px;
+}
+.amazon {
+	height: 2.7em;
+	left: 58%;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 22%;
+	padding: 5px;
+	border: 1px solid #eee;
+	border-radius: 9px;
+	background-color: #000;
+}
+
+.jumbotron {
+	background-color: transparent !important;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+.jumbotron h1 {
+	font-size: 3.5em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
